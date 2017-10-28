@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.states.PausedStateTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-06-19T18:26:49" hostname="Gustavo-Gonzalez-2.local" time="2.164">
+  <properties/>
+  <testcase name="testPlay" classname="test.java.states.PausedStateTest" time="0.08"/>
+  <testcase name="testStop" classname="test.java.states.PausedStateTest" time="0.09"/>
+  <testcase name="testPreviousSong" classname="test.java.states.PausedStateTest" time="1.257"/>
+  <testcase name="testAddPlayList" classname="test.java.states.PausedStateTest" time="0.073"/>
+  <testcase name="testPaused" classname="test.java.states.PausedStateTest" time="0.41"/>
+  <testcase name="testValues" classname="test.java.states.PausedStateTest" time="0.015"/>
+  <testcase name="testNextSong" classname="test.java.states.PausedStateTest" time="0.234"/>
+  <system-out><![CDATA[Create Singleton
+Delete Singleton
+Create Singleton
+Delete Singleton
+Create Singleton
+Delete Singleton
+Create Singleton
+Delete Singleton
+Create Singleton
+Delete Singleton
+Create Singleton
+Delete Singleton
+Create Singleton
+Delete Singleton
+]]></system-out>
+  <system-err><![CDATA[Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer open
+INFO: open(/Users/holawe/IngSoft-2016-HelloWorld/src/main/resources/default songs/Star Wars Theme.mp3)
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Create Line
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Create Line : Source format : MPEG1L3 44100.0 Hz, unknown bits per sample, stereo, unknown frame size, 38.28125 frames/second, 
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Create Line : Target format: PCM_SIGNED 44100.0 Hz, 16 bit, stereo, 4 bytes/frame, little-endian
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Line : com.sun.media.sound.DirectAudioDevice$DirectSDL@1a7ea7b4
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+INFO: startPlayback called
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer initLine
+INFO: initLine()
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+INFO: Open Line : BufferSize=88200
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+INFO: Master Gain Control : [-80.0,6.0206] 0.625
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+INFO: Pan Control : [-1.0,1.0] 0.0078125
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+INFO: Creating new thread
+Jun 19, 2016 3:26:50 PM javazoom.jlgui.basicplayer.BasicPlayer run
+INFO: Thread Running
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+INFO: Stream closed
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+INFO: Stream closed
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer stopPlayback
+INFO: stopPlayback() completed
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer run
+INFO: Thread completed
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer open
+INFO: open(/Users/holawe/IngSoft-2016-HelloWorld/src/main/resources/default songs/Mission Impossible Theme.mp3)
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Create Line
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Create Line : Source format : MPEG1L3 44100.0 Hz, unknown bits per sample, stereo, unknown frame size, 38.28125 frames/second, 
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Create Line : Target format: PCM_SIGNED 44100.0 Hz, 16 bit, stereo, 4 bytes/frame, little-endian
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Line : com.sun.media.sound.DirectAudioDevice$DirectSDL@45b7c8f8
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+INFO: startPlayback called
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer initLine
+INFO: initLine()
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+INFO: Open Line : BufferSize=88200
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+INFO: Master Gain Control : [-80.0,6.0206] 0.625
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+INFO: Pan Control : [-1.0,1.0] 0.0078125
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+INFO: Creating new thread
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer run
+INFO: Thread Running
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+INFO: Stream closed
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer run
+INFO: Thread completed
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+INFO: Stream closed
+Jun 19, 2016 3:26:51 PM javazoom.jlgui.basicplayer.BasicPlayer stopPlayback
+INFO: stopPlayback() completed
+]]></system-err>
+</testsuite>

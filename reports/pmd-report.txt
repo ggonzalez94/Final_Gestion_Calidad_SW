@@ -1,0 +1,730 @@
+src/main/java/controllers/BeatController.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/controllers/BeatController.java:7:	Use explicit scoping instead of the default package private level
+src/main/java/controllers/BeatController.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/controllers/BeatController.java:8:	Use explicit scoping instead of the default package private level
+src/main/java/controllers/BeatController.java:10:	Parameter 'model' is not assigned and could be declared final
+src/main/java/controllers/BeatController.java:10:	Parameter 'view' is not assigned and could be declared final
+src/main/java/controllers/BeatController.java:34:	Local variable 'bpm' could be declared final
+src/main/java/controllers/BeatController.java:39:	Local variable 'bpm' could be declared final
+src/main/java/controllers/BeatController.java:43:	Parameter 'bpm' is not assigned and could be declared final
+src/main/java/controllers/HeartController.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/controllers/HeartController.java:9:	Use explicit scoping instead of the default package private level
+src/main/java/controllers/HeartController.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/controllers/HeartController.java:10:	Use explicit scoping instead of the default package private level
+src/main/java/controllers/HeartController.java:12:	Parameter 'model' is not assigned and could be declared final
+src/main/java/controllers/HeartController.java:12:	Parameter 'view' is not assigned and could be declared final
+src/main/java/controllers/HeartController.java:22:	Document empty method body
+src/main/java/controllers/HeartController.java:24:	Document empty method body
+src/main/java/controllers/HeartController.java:30:	Document empty method body
+src/main/java/controllers/HeartController.java:32:	Document empty method body
+src/main/java/controllers/HeartController.java:32:	Parameter 'bpm' is not assigned and could be declared final
+src/main/java/controllers/MP3Controller.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/controllers/MP3Controller.java:7:	Use explicit scoping instead of the default package private level
+src/main/java/controllers/MP3Controller.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/controllers/MP3Controller.java:8:	Use explicit scoping instead of the default package private level
+src/main/java/controllers/MP3Controller.java:10:	Parameter 'model' is not assigned and could be declared final
+src/main/java/controllers/MP3Controller.java:10:	Parameter 'view' is not assigned and could be declared final
+src/main/java/controllers/MP3Controller.java:51:	Parameter 'bpm' is not assigned and could be declared final
+src/main/java/controllers/MP3Controller.java:52:	Local variable 'validacion' could be declared final
+src/main/java/controllers/MP3Controller.java:63:	Parameter 'volumen' is not assigned and could be declared final
+src/main/java/controllers/MP3Controller.java:68:	Local variable 'volumen_actual' could be declared final
+src/main/java/controllers/MP3Controller.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'volumen_actual' is not final.
+src/main/java/controllers/MP3Controller.java:73:	Local variable 'volumen_actual' could be declared final
+src/main/java/controllers/MP3Controller.java:73:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'volumen_actual' is not final.
+src/main/java/controllers/MP3Controller2.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/controllers/MP3Controller2.java:7:	Use explicit scoping instead of the default package private level
+src/main/java/controllers/MP3Controller2.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/controllers/MP3Controller2.java:8:	Use explicit scoping instead of the default package private level
+src/main/java/controllers/MP3Controller2.java:10:	Parameter 'model' is not assigned and could be declared final
+src/main/java/controllers/MP3Controller2.java:10:	Parameter 'view' is not assigned and could be declared final
+src/main/java/controllers/MP3Controller2.java:53:	Document empty method body
+src/main/java/controllers/MP3Controller2.java:53:	Parameter 'bpm' is not assigned and could be declared final
+src/main/java/controllers/MP3Controller2.java:55:	Parameter 'volumen' is not assigned and could be declared final
+src/main/java/controllers/MP3Controller2.java:68:	Parameter 'Path' is not assigned and could be declared final
+src/main/java/controllers/MP3Controller2.java:68:	Variables should start with a lowercase character, 'Path' starts with uppercase character.
+src/main/java/controllers/MP3Controller2.java:72:	Parameter 'index' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:10:	Each class should declare at least one constructor
+src/main/java/models/BeatModel.java:10:	This class has too many methods, consider refactoring it.
+src/main/java/models/BeatModel.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/BeatModel.java:11:	Use explicit scoping instead of the default package private level
+src/main/java/models/BeatModel.java:12:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/models/BeatModel.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/BeatModel.java:12:	Use explicit scoping instead of the default package private level
+src/main/java/models/BeatModel.java:13:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/models/BeatModel.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/BeatModel.java:13:	Use explicit scoping instead of the default package private level
+src/main/java/models/BeatModel.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/BeatModel.java:14:	Use explicit scoping instead of the default package private level
+src/main/java/models/BeatModel.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/BeatModel.java:15:	Use explicit scoping instead of the default package private level
+src/main/java/models/BeatModel.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/BeatModel.java:16:	Use explicit scoping instead of the default package private level
+src/main/java/models/BeatModel.java:23:	Avoid using short method names
+src/main/java/models/BeatModel.java:34:	Parameter 'bpm' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:49:	Use explicit scoping instead of the default package private level
+src/main/java/models/BeatModel.java:54:	Avoid variables with short names like o
+src/main/java/models/BeatModel.java:54:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:60:	Local variable 'observer' could be declared final
+src/main/java/models/BeatModel.java:61:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/BeatModel.java:65:	Avoid variables with short names like o
+src/main/java/models/BeatModel.java:65:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:71:	Local variable 'observer' could be declared final
+src/main/java/models/BeatModel.java:72:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/BeatModel.java:77:	Avoid variables with short names like o
+src/main/java/models/BeatModel.java:77:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:78:	Avoid variables with short names like i
+src/main/java/models/BeatModel.java:78:	Local variable 'i' could be declared final
+src/main/java/models/BeatModel.java:86:	Avoid variables with short names like o
+src/main/java/models/BeatModel.java:86:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:87:	Avoid variables with short names like i
+src/main/java/models/BeatModel.java:87:	Local variable 'i' could be declared final
+src/main/java/models/BeatModel.java:94:	Parameter 'message' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:102:	Avoid using Literals in Conditional Statements
+src/main/java/models/BeatModel.java:123:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/models/BeatModel.java:124:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/BeatModel.java:129:	Local variable 'trackList' could be declared final
+src/main/java/models/BeatModel.java:138:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/models/BeatModel.java:139:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/BeatModel.java:143:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/models/BeatModel.java:143:	Parameter 'list' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:146:	Local variable 'key' could be declared final
+src/main/java/models/BeatModel.java:155:	Parameter 'chan' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:155:	Parameter 'comd' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:155:	Parameter 'one' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:155:	Parameter 'tick' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:155:	Parameter 'two' is not assigned and could be declared final
+src/main/java/models/BeatModel.java:156:	Found 'DD'-anomaly for variable 'event' (lines '156'-'160').
+src/main/java/models/BeatModel.java:158:	Avoid variables with short names like a
+src/main/java/models/BeatModel.java:158:	Local variable 'a' could be declared final
+src/main/java/models/BeatModel.java:162:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/models/BeatModel.java:163:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/BeatModelInterface.java:9:	Avoid using short method names
+src/main/java/models/BeatModelInterface.java:17:	Avoid variables with short names like o
+src/main/java/models/BeatModelInterface.java:19:	Avoid variables with short names like o
+src/main/java/models/BeatModelInterface.java:21:	Avoid variables with short names like o
+src/main/java/models/BeatModelInterface.java:23:	Avoid variables with short names like o
+src/main/java/models/HeartAdapter.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/HeartAdapter.java:7:	Use explicit scoping instead of the default package private level
+src/main/java/models/HeartAdapter.java:9:	Parameter 'heart' is not assigned and could be declared final
+src/main/java/models/HeartAdapter.java:13:	Document empty method body
+src/main/java/models/HeartAdapter.java:16:	Avoid using short method names
+src/main/java/models/HeartAdapter.java:16:	Document empty method body
+src/main/java/models/HeartAdapter.java:19:	Document empty method body
+src/main/java/models/HeartAdapter.java:23:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/HeartAdapter.java:26:	Document empty method body
+src/main/java/models/HeartAdapter.java:26:	Parameter 'bpm' is not assigned and could be declared final
+src/main/java/models/HeartAdapter.java:29:	Avoid variables with short names like o
+src/main/java/models/HeartAdapter.java:29:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/HeartAdapter.java:33:	Avoid variables with short names like o
+src/main/java/models/HeartAdapter.java:33:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/HeartAdapter.java:37:	Avoid variables with short names like o
+src/main/java/models/HeartAdapter.java:37:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/HeartAdapter.java:41:	Avoid variables with short names like o
+src/main/java/models/HeartAdapter.java:41:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/HeartModel.java:9:	A class which only has private constructors should be final
+src/main/java/models/HeartModel.java:9:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/models/HeartModel.java:10:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'unique_model' is not final.
+src/main/java/models/HeartModel.java:11:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/models/HeartModel.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/HeartModel.java:11:	Use explicit scoping instead of the default package private level
+src/main/java/models/HeartModel.java:12:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/models/HeartModel.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/HeartModel.java:12:	Use explicit scoping instead of the default package private level
+src/main/java/models/HeartModel.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/HeartModel.java:13:	Use explicit scoping instead of the default package private level
+src/main/java/models/HeartModel.java:14:	Use explicit scoping instead of the default package private level
+src/main/java/models/HeartModel.java:15:	Avoid using redundant field initializer for 'intentos'
+src/main/java/models/HeartModel.java:15:	Use explicit scoping instead of the default package private level
+src/main/java/models/HeartModel.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/HeartModel.java:16:	Use explicit scoping instead of the default package private level
+src/main/java/models/HeartModel.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/HeartModel.java:17:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/models/HeartModel.java:17:	Use explicit scoping instead of the default package private level
+src/main/java/models/HeartModel.java:20:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/models/HeartModel.java:25:	Singleton is not thread safe
+src/main/java/models/HeartModel.java:33:	Found 'DU'-anomaly for variable 'lastrate' (lines '33'-'54').
+src/main/java/models/HeartModel.java:36:	Found 'DD'-anomaly for variable 'change' (lines '36'-'38').
+src/main/java/models/HeartModel.java:40:	Local variable 'rate' could be declared final
+src/main/java/models/HeartModel.java:45:	Found 'DU'-anomaly for variable 'lastrate' (lines '45'-'54').
+src/main/java/models/HeartModel.java:51:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/models/HeartModel.java:51:	Avoid empty catch blocks
+src/main/java/models/HeartModel.java:60:	Avoid variables with short names like o
+src/main/java/models/HeartModel.java:60:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/HeartModel.java:64:	Avoid variables with short names like o
+src/main/java/models/HeartModel.java:64:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/HeartModel.java:65:	Avoid variables with short names like i
+src/main/java/models/HeartModel.java:65:	Local variable 'i' could be declared final
+src/main/java/models/HeartModel.java:73:	Local variable 'observer' could be declared final
+src/main/java/models/HeartModel.java:74:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/HeartModel.java:78:	Avoid variables with short names like o
+src/main/java/models/HeartModel.java:78:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/HeartModel.java:82:	Avoid variables with short names like o
+src/main/java/models/HeartModel.java:82:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/HeartModel.java:83:	Avoid variables with short names like i
+src/main/java/models/HeartModel.java:83:	Local variable 'i' could be declared final
+src/main/java/models/HeartModel.java:91:	Local variable 'observer' could be declared final
+src/main/java/models/HeartModel.java:92:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/HeartModelInterface.java:9:	Avoid variables with short names like o
+src/main/java/models/HeartModelInterface.java:11:	Avoid variables with short names like o
+src/main/java/models/HeartModelInterface.java:13:	Avoid variables with short names like o
+src/main/java/models/HeartModelInterface.java:15:	Avoid variables with short names like o
+src/main/java/models/MP3Adapter.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Adapter.java:7:	Use explicit scoping instead of the default package private level
+src/main/java/models/MP3Adapter.java:9:	Parameter 'player' is not assigned and could be declared final
+src/main/java/models/MP3Adapter.java:14:	Document empty method body
+src/main/java/models/MP3Adapter.java:17:	Avoid using short method names
+src/main/java/models/MP3Adapter.java:17:	Document empty method body
+src/main/java/models/MP3Adapter.java:20:	Document empty method body
+src/main/java/models/MP3Adapter.java:23:	Document empty method body
+src/main/java/models/MP3Adapter.java:23:	Parameter 'bpm' is not assigned and could be declared final
+src/main/java/models/MP3Adapter.java:31:	Avoid variables with short names like o
+src/main/java/models/MP3Adapter.java:31:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Adapter.java:36:	Avoid variables with short names like o
+src/main/java/models/MP3Adapter.java:36:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Adapter.java:41:	Avoid variables with short names like o
+src/main/java/models/MP3Adapter.java:41:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Adapter.java:46:	Avoid variables with short names like o
+src/main/java/models/MP3Adapter.java:46:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:1:	Possible God class (WMC=80, ATFD=26, TCC=0.08571428571428572)
+src/main/java/models/MP3Model.java:22:	A class which only has private constructors should be final
+src/main/java/models/MP3Model.java:22:	This class has too many methods, consider refactoring it.
+src/main/java/models/MP3Model.java:24:	Avoid using redundant field initializer for 'uniqueMP3'
+src/main/java/models/MP3Model.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:26:	Private field 'player' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:27:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/models/MP3Model.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:27:	Private field 'playlist' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:28:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/models/MP3Model.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:28:	Private field 'bpmObservers' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:29:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/models/MP3Model.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:29:	Private field 'beatObservers' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:30:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/models/MP3Model.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:30:	Private field 'trackObservers' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:31:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/models/MP3Model.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:31:	Private field 'progressObservers' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:34:	Private field 'playing' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:35:	Private field 'stopped' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:36:	Private field 'empty' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:37:	Private field 'paused' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/MP3Model.java:42:	Private field 'progressThread' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/models/MP3Model.java:63:	Singleton is not thread safe
+src/main/java/models/MP3Model.java:77:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/MP3Model.java:79:	Comment is too large: Line too long
+src/main/java/models/MP3Model.java:92:	Parameter 'path' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:93:	Local variable 'file' could be declared final
+src/main/java/models/MP3Model.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:99:	Local variable 'list' could be declared final
+src/main/java/models/MP3Model.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:142:	Parameter 'volumen' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:151:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/MP3Model.java:160:	Parameter 'index' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:162:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/models/MP3Model.java:175:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/models/MP3Model.java:177:	Local variable 'path' could be declared final
+src/main/java/models/MP3Model.java:178:	Found 'DD'-anomaly for variable 'mp3file' (lines '178'-'180').
+src/main/java/models/MP3Model.java:182:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/MP3Model.java:184:	Local variable 'songName' could be declared final
+src/main/java/models/MP3Model.java:184:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:186:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/models/MP3Model.java:193:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/models/MP3Model.java:195:	Local variable 'path' could be declared final
+src/main/java/models/MP3Model.java:196:	Found 'DD'-anomaly for variable 'song' (lines '196'-'198').
+src/main/java/models/MP3Model.java:200:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/MP3Model.java:202:	Local variable 'duration' could be declared final
+src/main/java/models/MP3Model.java:203:	Local variable 'minutes' could be declared final
+src/main/java/models/MP3Model.java:204:	Local variable 'seconds' could be declared final
+src/main/java/models/MP3Model.java:205:	Local variable 'songDuration' could be declared final
+src/main/java/models/MP3Model.java:206:	Consider simply returning the value vs storing it in local variable 'songDuration'
+src/main/java/models/MP3Model.java:210:	Local variable 'path' could be declared final
+src/main/java/models/MP3Model.java:211:	Found 'DD'-anomaly for variable 'song' (lines '211'-'213').
+src/main/java/models/MP3Model.java:215:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/MP3Model.java:217:	Local variable 'duration' could be declared final
+src/main/java/models/MP3Model.java:223:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/models/MP3Model.java:224:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/models/MP3Model.java:233:	Found 'DD'-anomaly for variable 'playlistArray' (lines '233'-'244').
+src/main/java/models/MP3Model.java:233:	Found 'DD'-anomaly for variable 'playlistArray' (lines '233'-'247').
+src/main/java/models/MP3Model.java:234:	Found 'DD'-anomaly for variable 'song' (lines '234'-'238').
+src/main/java/models/MP3Model.java:234:	Found 'DU'-anomaly for variable 'song' (lines '234'-'251').
+src/main/java/models/MP3Model.java:236:	Local variable 'path' could be declared final
+src/main/java/models/MP3Model.java:238:	Avoid instantiating new objects inside loops
+src/main/java/models/MP3Model.java:240:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/MP3Model.java:242:	Local variable 'songTitle' could be declared final
+src/main/java/models/MP3Model.java:242:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:244:	Avoid instantiating new objects inside loops
+src/main/java/models/MP3Model.java:244:	Found 'DD'-anomaly for variable 'playlistArray' (lines '244'-'244').
+src/main/java/models/MP3Model.java:244:	Found 'DD'-anomaly for variable 'playlistArray' (lines '244'-'247').
+src/main/java/models/MP3Model.java:247:	Found 'DD'-anomaly for variable 'playlistArray' (lines '247'-'244').
+src/main/java/models/MP3Model.java:247:	Found 'DD'-anomaly for variable 'playlistArray' (lines '247'-'247').
+src/main/java/models/MP3Model.java:253:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/models/MP3Model.java:259:	Found 'DD'-anomaly for variable 'song' (lines '259'-'261').
+src/main/java/models/MP3Model.java:263:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/MP3Model.java:266:	Local variable 'songTag' could be declared final
+src/main/java/models/MP3Model.java:267:	Local variable 'songDetails' could be declared final
+src/main/java/models/MP3Model.java:268:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/MP3Model.java:269:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/MP3Model.java:270:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/MP3Model.java:271:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/MP3Model.java:272:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/MP3Model.java:273:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/MP3Model.java:274:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/models/MP3Model.java:280:	Return an empty array rather than null.
+src/main/java/models/MP3Model.java:281:	Found 'DD'-anomaly for variable 'song' (lines '281'-'283').
+src/main/java/models/MP3Model.java:285:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/MP3Model.java:288:	Local variable 'albumArt' could be declared final
+src/main/java/models/MP3Model.java:288:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:289:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/models/MP3Model.java:289:	Consider simply returning the value vs storing it in local variable 'albumArt'
+src/main/java/models/MP3Model.java:305:	Parameter 'newState' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:326:	Parameter 'index' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:328:	Avoid variables with short names like f
+src/main/java/models/MP3Model.java:328:	Local variable 'f' could be declared final
+src/main/java/models/MP3Model.java:328:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/models/MP3Model.java:332:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/MP3Model.java:337:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/models/MP3Model.java:338:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/MP3Model.java:343:	Parameter 'index' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:346:	Avoid using Literals in Conditional Statements
+src/main/java/models/MP3Model.java:356:	Comment is too large: Line too long
+src/main/java/models/MP3Model.java:372:	Parameter 'progress' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:374:	Local variable 'observer' could be declared final
+src/main/java/models/MP3Model.java:375:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/MP3Model.java:379:	Avoid variables with short names like o
+src/main/java/models/MP3Model.java:379:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:383:	Avoid variables with short names like o
+src/main/java/models/MP3Model.java:383:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:384:	Avoid variables with short names like i
+src/main/java/models/MP3Model.java:384:	Local variable 'i' could be declared final
+src/main/java/models/MP3Model.java:390:	Avoid variables with short names like o
+src/main/java/models/MP3Model.java:390:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:394:	Avoid variables with short names like o
+src/main/java/models/MP3Model.java:394:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:395:	Avoid variables with short names like i
+src/main/java/models/MP3Model.java:395:	Local variable 'i' could be declared final
+src/main/java/models/MP3Model.java:403:	Local variable 'observer' could be declared final
+src/main/java/models/MP3Model.java:404:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/MP3Model.java:405:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/MP3Model.java:409:	Avoid variables with short names like o
+src/main/java/models/MP3Model.java:409:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:413:	Avoid variables with short names like o
+src/main/java/models/MP3Model.java:413:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:414:	Avoid variables with short names like i
+src/main/java/models/MP3Model.java:414:	Local variable 'i' could be declared final
+src/main/java/models/MP3Model.java:422:	Local variable 'observer' could be declared final
+src/main/java/models/MP3Model.java:423:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/models/MP3Model.java:427:	Avoid variables with short names like o
+src/main/java/models/MP3Model.java:427:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:431:	Avoid variables with short names like o
+src/main/java/models/MP3Model.java:431:	Parameter 'o' is not assigned and could be declared final
+src/main/java/models/MP3Model.java:432:	Avoid variables with short names like i
+src/main/java/models/MP3Model.java:432:	Local variable 'i' could be declared final
+src/main/java/models/MP3ModelInterface.java:10:	This class has too many methods, consider refactoring it.
+src/main/java/models/MP3ModelInterface.java:17:	Variables should start with a lowercase character, 'Path' starts with uppercase character.
+src/main/java/models/MP3ModelInterface.java:27:	Avoid variables with short names like o
+src/main/java/models/MP3ModelInterface.java:29:	Avoid variables with short names like o
+src/main/java/models/MP3ModelInterface.java:31:	Avoid variables with short names like o
+src/main/java/models/MP3ModelInterface.java:33:	Avoid variables with short names like o
+src/main/java/models/MP3ModelInterface.java:41:	Method names should not start with capital letters
+src/main/java/models/MP3ModelInterface.java:51:	Avoid variables with short names like o
+src/main/java/models/MP3ModelInterface.java:53:	Avoid variables with short names like o
+src/main/java/models/MP3ModelInterface.java:61:	Avoid variables with short names like o
+src/main/java/models/MP3ModelInterface.java:63:	Avoid variables with short names like o
+src/main/java/models/ProgressThread.java:3:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/models/ProgressThread.java:4:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/ProgressThread.java:4:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/models/ProgressThread.java:4:	Use explicit scoping instead of the default package private level
+src/main/java/models/ProgressThread.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/ProgressThread.java:5:	Use explicit scoping instead of the default package private level
+src/main/java/models/ProgressThread.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/ProgressThread.java:6:	Use explicit scoping instead of the default package private level
+src/main/java/models/ProgressThread.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/ProgressThread.java:7:	Use explicit scoping instead of the default package private level
+src/main/java/models/ProgressThread.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/models/ProgressThread.java:8:	Use explicit scoping instead of the default package private level
+src/main/java/models/ProgressThread.java:11:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/models/ProgressThread.java:29:	An empty statement (semicolon) not part of a loop
+src/main/java/models/ProgressThread.java:29:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/models/ProgressThread.java:29:	Avoid empty catch blocks
+src/main/java/models/ProgressThread.java:35:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/models/ProgressThread.java:41:	Avoid variables with short names like i
+src/main/java/models/ProgressThread.java:41:	Parameter 'i' is not assigned and could be declared final
+src/main/java/models/ProgressThread.java:54:	Parameter 'newModel' is not assigned and could be declared final
+src/main/java/states/EmptyState.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/states/EmptyState.java:7:	Use explicit scoping instead of the default package private level
+src/main/java/states/EmptyState.java:9:	Parameter 'model' is not assigned and could be declared final
+src/main/java/states/EmptyState.java:20:	Document empty method body
+src/main/java/states/EmptyState.java:23:	Document empty method body
+src/main/java/states/EmptyState.java:26:	Document empty method body
+src/main/java/states/EmptyState.java:29:	Document empty method body
+src/main/java/states/EmptyState.java:32:	Document empty method body
+src/main/java/states/PausedState.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/states/PausedState.java:8:	Use explicit scoping instead of the default package private level
+src/main/java/states/PausedState.java:10:	Parameter 'model' is not assigned and could be declared final
+src/main/java/states/PausedState.java:17:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/states/PausedState.java:19:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/states/PausedState.java:45:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/states/PausedState.java:47:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/states/PausedState.java:53:	Document empty method body
+src/main/java/states/PausedState.java:54:	Document empty method body
+src/main/java/states/PlayingState.java:5:	No need to import a type that lives in the same package
+src/main/java/states/PlayingState.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/states/PlayingState.java:9:	Use explicit scoping instead of the default package private level
+src/main/java/states/PlayingState.java:11:	Parameter 'model' is not assigned and could be declared final
+src/main/java/states/PlayingState.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/states/PlayingState.java:20:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/states/PlayingState.java:27:	Local variable 'index' could be declared final
+src/main/java/states/PlayingState.java:45:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/states/PlayingState.java:48:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/states/PlayingState.java:54:	Document empty method body
+src/main/java/states/PlayingState.java:55:	Document empty method body
+src/main/java/states/StoppedState.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/states/StoppedState.java:7:	Use explicit scoping instead of the default package private level
+src/main/java/states/StoppedState.java:9:	Parameter 'model' is not assigned and could be declared final
+src/main/java/states/StoppedState.java:40:	Document empty method body
+src/main/java/states/StoppedState.java:41:	Document empty method body
+src/main/java/states/StoppedState.java:42:	Document empty method body
+src/main/java/testDrives/DJTestDrive.java:1:	Package name contains upper case characters
+src/main/java/testDrives/DJTestDrive.java:9:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/testDrives/DJTestDrive.java:11:	Parameter 'args' is not assigned and could be declared final
+src/main/java/testDrives/DJTestDrive.java:12:	Local variable 'model' could be declared final
+src/main/java/testDrives/DJTestDrive.java:13:	Local variable 'view' could be declared final
+src/main/java/testDrives/DJTestDrive.java:16:	Local variable 'controller' could be declared final
+src/main/java/testDrives/HeartTestDrive.java:1:	Package name contains upper case characters
+src/main/java/testDrives/HeartTestDrive.java:9:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/testDrives/HeartTestDrive.java:11:	Parameter 'args' is not assigned and could be declared final
+src/main/java/testDrives/HeartTestDrive.java:12:	Local variable 'heartModel' could be declared final
+src/main/java/testDrives/HeartTestDrive.java:13:	Local variable 'view' could be declared final
+src/main/java/testDrives/HeartTestDrive.java:16:	Local variable 'controller' could be declared final
+src/main/java/testDrives/MyMP3TestDrive2.java:1:	Package name contains upper case characters
+src/main/java/testDrives/MyMP3TestDrive2.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/testDrives/MyMP3TestDrive2.java:9:	Comment is too large: Line too long
+src/main/java/testDrives/MyMP3TestDrive2.java:10:	Comment is too large: Line too long
+src/main/java/testDrives/MyMP3TestDrive2.java:11:	Comment is too large: Line too long
+src/main/java/testDrives/MyMP3TestDrive2.java:13:	Parameter 'args' is not assigned and could be declared final
+src/main/java/testDrives/MyMP3TestDrive2.java:14:	Local variable 'model' could be declared final
+src/main/java/testDrives/MyMP3TestDrive2.java:15:	Local variable 'view' could be declared final
+src/main/java/testDrives/MyMP3TestDrive2.java:16:	Local variable 'controller' could be declared final
+src/main/java/testDrives/MyMP3TestDrive3.java:1:	Package name contains upper case characters
+src/main/java/testDrives/MyMP3TestDrive3.java:15:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/testDrives/MyMP3TestDrive3.java:17:	Comment is too large: Line too long
+src/main/java/testDrives/MyMP3TestDrive3.java:19:	Parameter 'args' is not assigned and could be declared final
+src/main/java/testDrives/MyMP3TestDrive3.java:22:	Local variable 'model1' could be declared final
+src/main/java/testDrives/MyMP3TestDrive3.java:23:	Local variable 'mp3View' could be declared final
+src/main/java/testDrives/MyMP3TestDrive3.java:26:	Local variable 'controller1' could be declared final
+src/main/java/testDrives/MyMP3TestDrive3.java:30:	Local variable 'model2' could be declared final
+src/main/java/testDrives/MyMP3TestDrive3.java:31:	Local variable 'djview' could be declared final
+src/main/java/testDrives/MyMP3TestDrive3.java:34:	Local variable 'controller2' could be declared final
+src/main/java/testDrives/MyMP3TestDrive3.java:38:	Local variable 'heartModel' could be declared final
+src/main/java/testDrives/MyMP3TestDrive3.java:39:	Local variable 'heartView' could be declared final
+src/main/java/testDrives/MyMP3TestDrive3.java:42:	Local variable 'controller' could be declared final
+src/main/java/testDrives/MyMP3TestDrive4.java:1:	Package name contains upper case characters
+src/main/java/testDrives/MyMP3TestDrive4.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/testDrives/MyMP3TestDrive4.java:11:	Comment is too large: Line too long
+src/main/java/testDrives/MyMP3TestDrive4.java:12:	Parameter 'args' is not assigned and could be declared final
+src/main/java/testDrives/MyMP3TestDrive4.java:13:	Local variable 'beatModel' could be declared final
+src/main/java/testDrives/MyMP3TestDrive4.java:17:	Local variable 'view' could be declared final
+src/main/java/testDrives/MyMP3TestDrive4.java:21:	Local variable 'djController' could be declared final
+src/main/java/testDrives/MyMp3TestDrive1.java:1:	Package name contains upper case characters
+src/main/java/testDrives/MyMp3TestDrive1.java:8:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/testDrives/MyMp3TestDrive1.java:12:	Comment is too large: Line too long
+src/main/java/testDrives/MyMp3TestDrive1.java:15:	Parameter 'args' is not assigned and could be declared final
+src/main/java/testDrives/MyMp3TestDrive1.java:16:	Local variable 'model' could be declared final
+src/main/java/testDrives/MyMp3TestDrive1.java:17:	Local variable 'view' could be declared final
+src/main/java/testDrives/MyMp3TestDrive1.java:20:	Local variable 'controller' could be declared final
+src/main/java/views/BeatBar.java:5:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/views/BeatBar.java:7:	Use explicit scoping instead of the default package private level
+src/main/java/views/BeatBar.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/BeatBar.java:8:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/views/BeatBar.java:8:	Use explicit scoping instead of the default package private level
+src/main/java/views/BeatBar.java:10:	It is a good practice to call super() in a constructor
+src/main/java/views/BeatBar.java:11:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/views/BeatBar.java:18:	Found 'DD'-anomaly for variable 'value' (lines '18'-'19').
+src/main/java/views/BeatBar.java:24:	An empty statement (semicolon) not part of a loop
+src/main/java/views/BeatBar.java:24:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/views/BeatBar.java:24:	Avoid empty catch blocks
+src/main/java/views/DJView.java:19:	This class has too many methods, consider refactoring it.
+src/main/java/views/DJView.java:19:	Too many fields
+src/main/java/views/DJView.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:20:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:21:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:22:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:23:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:24:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:25:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:26:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:27:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:28:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:29:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:30:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:31:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:32:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:33:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:34:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:35:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:36:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:37:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:38:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:39:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/DJView.java:40:	Use explicit scoping instead of the default package private level
+src/main/java/views/DJView.java:42:	Parameter 'controller' is not assigned and could be declared final
+src/main/java/views/DJView.java:42:	Parameter 'model' is not assigned and could be declared final
+src/main/java/views/DJView.java:58:	Local variable 'bpmPanel' could be declared final
+src/main/java/views/DJView.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/views/DJView.java:82:	Parameter 'event' is not assigned and could be declared final
+src/main/java/views/DJView.java:89:	Parameter 'event' is not assigned and could be declared final
+src/main/java/views/DJView.java:93:	Local variable 'exit' could be declared final
+src/main/java/views/DJView.java:95:	Parameter 'event' is not assigned and could be declared final
+src/main/java/views/DJView.java:96:	System.exit() should not be used in J2EE/JEE apps
+src/main/java/views/DJView.java:129:	Local variable 'buttonPanel' could be declared final
+src/main/java/views/DJView.java:134:	Local variable 'enterPanel' could be declared final
+src/main/java/views/DJView.java:137:	Avoid excessively long variable names like insideControlPanel
+src/main/java/views/DJView.java:137:	Local variable 'insideControlPanel' could be declared final
+src/main/java/views/DJView.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/views/DJView.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/views/DJView.java:165:	Parameter 'event' is not assigned and could be declared final
+src/main/java/views/DJView.java:167:	Local variable 'bpm' could be declared final
+src/main/java/views/DJView.java:201:	Local variable 'mp3model' could be declared final
+src/main/java/views/DJView.java:218:	Local variable 'bpm' could be declared final
+src/main/java/views/DJView.java:231:	Avoid using if...else statements without curly braces
+src/main/java/views/DJView.java:233:	Avoid using if...else statements without curly braces
+src/main/java/views/DJView.java:247:	Parameter 'controller' is not assigned and could be declared final
+src/main/java/views/DJView.java:251:	Parameter 'newModel' is not assigned and could be declared final
+src/main/java/views/MP3View.java:1:	A high number of imports can indicate a high degree of coupling within an object.
+src/main/java/views/MP3View.java:36:	The class 'MP3View' has a Cyclomatic Complexity of 2 (Highest = 15).
+src/main/java/views/MP3View.java:36:	The class 'MP3View' has a Modified Cyclomatic Complexity of 2 (Highest = 15).
+src/main/java/views/MP3View.java:36:	The class 'MP3View' has a Standard Cyclomatic Complexity of 2 (Highest = 15).
+src/main/java/views/MP3View.java:36:	Too many fields
+src/main/java/views/MP3View.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:42:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:43:	Avoid using redundant field initializer for 'controller'
+src/main/java/views/MP3View.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:43:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:45:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:48:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:49:	Avoid using redundant field initializer for 'songArt'
+src/main/java/views/MP3View.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:49:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:50:	Avoid using redundant field initializer for 'songInfo'
+src/main/java/views/MP3View.java:50:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:50:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:51:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:51:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:52:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:52:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:53:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:54:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:55:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:55:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:56:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:56:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:57:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:58:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:59:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:60:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:61:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:61:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:63:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:63:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:64:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:65:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:65:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:67:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:68:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:69:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:69:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:70:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:70:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:71:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:71:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:72:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:72:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:74:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:74:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:75:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:75:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:78:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:78:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:79:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:79:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:79:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:80:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:81:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:81:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:81:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:82:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:82:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:83:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:83:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:83:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:84:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:84:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:85:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:85:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:86:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:86:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:87:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:87:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:88:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:88:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:89:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:89:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:89:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:90:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:90:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:91:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:91:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:91:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:92:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:92:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:93:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:93:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:93:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:94:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:94:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:95:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:95:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:95:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:96:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:96:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:97:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:97:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:97:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:98:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:98:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:99:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:99:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:99:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:100:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:100:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:101:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:101:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:101:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:102:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:102:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:103:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/views/MP3View.java:103:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/views/MP3View.java:103:	Use explicit scoping instead of the default package private level
+src/main/java/views/MP3View.java:109:	It is a good practice to call super() in a constructor
+src/main/java/views/MP3View.java:109:	Parameter 'model' is not assigned and could be declared final
+src/main/java/views/MP3View.java:113:	Overridable method 'updatePlaylistInfo' called during object construction
+src/main/java/views/MP3View.java:123:	Avoid really long methods.
+src/main/java/views/MP3View.java:128:	Avoid variables with short names like _H
+src/main/java/views/MP3View.java:128:	Local variable '_H' could be declared final
+src/main/java/views/MP3View.java:128:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), '_H' is not final.
+src/main/java/views/MP3View.java:129:	Avoid variables with short names like _W
+src/main/java/views/MP3View.java:129:	Local variable '_W' could be declared final
+src/main/java/views/MP3View.java:129:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), '_W' is not final.
+src/main/java/views/MP3View.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/views/MP3View.java:140:	Local variable 'panelNP' could be declared final
+src/main/java/views/MP3View.java:151:	Local variable 'contSlbl' could be declared final
+src/main/java/views/MP3View.java:171:	Local variable 'btn_h' could be declared final
+src/main/java/views/MP3View.java:171:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_h' is not final.
+src/main/java/views/MP3View.java:172:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_w' is not final.
+src/main/java/views/MP3View.java:173:	Local variable 'lineW' could be declared final
+src/main/java/views/MP3View.java:174:	Local variable 'line1' could be declared final
+src/main/java/views/MP3View.java:177:	Local variable 'contBtns' could be declared final
+src/main/java/views/MP3View.java:195:	Local variable 'line2' could be declared final
+src/main/java/views/MP3View.java:197:	Local variable 'volBtns' could be declared final
+src/main/java/views/MP3View.java:214:	Local variable 'line4' could be declared final
+src/main/java/views/MP3View.java:215:	Local variable 'configBtns' could be declared final
+src/main/java/views/MP3View.java:232:	Local variable 'h_list' could be declared final
+src/main/java/views/MP3View.java:232:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'h_list' is not final.
+src/main/java/views/MP3View.java:233:	Local variable 'line3' could be declared final
+src/main/java/views/MP3View.java:235:	Local variable 'listScroller' could be declared final
+src/main/java/views/MP3View.java:252:	Avoid variables with short names like e
+src/main/java/views/MP3View.java:252:	Parameter 'e' is not assigned and could be declared final
+src/main/java/views/MP3View.java:253:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/views/MP3View.java:253:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/views/MP3View.java:253:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/views/MP3View.java:273:	Parameter 'event' is not assigned and could be declared final
+src/main/java/views/MP3View.java:273:	The method 'actionPerformed' has a Cyclomatic Complexity of 15.
+src/main/java/views/MP3View.java:273:	The method 'actionPerformed' has a Modified Cyclomatic Complexity of 15.
+src/main/java/views/MP3View.java:273:	The method 'actionPerformed' has a Standard Cyclomatic Complexity of 15.
+src/main/java/views/MP3View.java:289:	Local variable 'filter' could be declared final
+src/main/java/views/MP3View.java:291:	Local variable 'returnVal' could be declared final
+src/main/java/views/MP3View.java:293:	Local variable 'file' could be declared final
+src/main/java/views/MP3View.java:294:	Local variable 'path' could be declared final
+src/main/java/views/MP3View.java:294:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/views/MP3View.java:305:	Local variable 'imageData' could be declared final
+src/main/java/views/MP3View.java:306:	Found 'DD'-anomaly for variable 'img' (lines '306'-'308').
+src/main/java/views/MP3View.java:308:	Found 'DU'-anomaly for variable 'img' (lines '308'-'344').
+src/main/java/views/MP3View.java:310:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/views/MP3View.java:312:	Avoid if (x != y) ..; else ..;
+src/main/java/views/MP3View.java:315:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/views/MP3View.java:326:	Avoid if (x != y) ..; else ..;
+src/main/java/views/MP3View.java:329:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/views/MP3View.java:331:	Local variable 'songDetails' could be declared final
+src/main/java/views/MP3View.java:333:	Local variable 'jSongList' could be declared final
+src/main/java/views/MP3View.java:346:	Parameter 'controller' is not assigned and could be declared final
+src/main/java/views/MP3View.java:350:	Method names should not start with capital letters
+src/main/java/views/MP3View.java:354:	Method names should not start with capital letters
+src/main/java/views/MP3View.java:358:	Method names should not start with capital letters
+src/main/java/views/MP3View.java:370:	Local variable 'playlist' could be declared final
+src/main/java/views/MP3View.java:371:	Comment is too large: Line too long
+src/main/java/views/MP3View.java:373:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/views/MP3View.java:379:	Parameter 'progress' is not assigned and could be declared final
+src/main/java/views/MP3View.java:379:	Parameter 'size' is not assigned and could be declared final
+src/main/java/views/MP3View.java:387:	Local variable 'minutes' could be declared final
+src/main/java/views/MP3View.java:388:	Local variable 'seconds' could be declared final
+src/main/java/views/MP3View.java:389:	Avoid variables with short names like a
+src/main/java/views/MP3View.java:389:	Local variable 'a' could be declared final
+src/main/java/views/ProgressBar.java:7:	It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/views/ProgressBar.java:7:	Use explicit scoping instead of the default package private level
+src/main/java/views/ProgressBar.java:9:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/views/ProgressBar.java:9:	Document empty constructor
+src/main/java/views/ProgressBar.java:9:	It is a good practice to call super() in a constructor
+src/main/java/views/ProgressBar.java:21:	Parameter 'max' is not assigned and could be declared final
+src/test/java/controllers/MP3Controller2Test.java:3:	Each class should declare at least one constructor
+src/test/java/controllers/MP3ControllerTest.java:3:	Each class should declare at least one constructor
+src/test/java/states/EmptyStateTest.java:69:	Comment is too large: Line too long
+src/test/java/states/EmptyStateTest.java:70:	Comment is too large: Line too long
+src/test/java/states/PausedStateTest.java:85:	Comment is too large: Line too long
+src/test/java/states/PausedStateTest.java:104:	Comment is too large: Line too long
+src/test/java/states/PlayingStateTest.java:79:	Comment is too large: Line too long
+src/test/java/states/PlayingStateTest.java:80:	Comment is too large: Line too long
+src/test/java/states/PlayingStateTest.java:104:	Comment is too large: Line too long
+src/test/java/states/StoppedStateTest.java:87:	Comment is too large: Line too long
+src/test/java/states/StoppedStateTest.java:106:	Comment is too large: Line too long
+src/test/java/views/MP3ViewTest.java:3:	Each class should declare at least one constructor
