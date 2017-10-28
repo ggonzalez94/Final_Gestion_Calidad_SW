@@ -16,4 +16,4 @@
 ### Notas de Entrega - [Google Docs](https://docs.google.com/document/d/1FiLnc2N1MB6MT9Zi5VTsT5GME0U6hOCFJcrtlJcFeq8/edit?usp=sharing) - [PDF](https://drive.google.com/open?id=0B6PH2ZY6oYH7QXVJdE9OZXgyOTA)
 
 ### **Instrucciones de instalación**
-Descargar los archivos [.jar ejecutables](https://drive.google.com/open?id=0B6PH2ZY6oYH7VlgzT2pPeS0zWmc), extraerlos en una carpeta y abrir el Test Drive a probar.
+Descargar los archivos [.jar ejecutables](https://drive.google.com/open?id=0B6PH2ZY6oYH7VlgzT2pPeS0zWmc), extraerlos en una carpeta y abrir el Test Drive a probar
