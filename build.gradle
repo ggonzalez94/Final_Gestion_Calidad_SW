@@ -52,6 +52,9 @@ tasks.withType(FindBugs) {
 
 jacocoTestReport.dependsOn test
 
-test{
-    ignoreFailures false
+test {
+    testLogging {
+        events "failed"
+        exceptionFormat "short"
+    }
 }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.states.StoppedStateTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-11-04T19:43:24" hostname="Gustavo-Gonzalez-2.local" time="4.479">
+<testsuite name="test.java.states.StoppedStateTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-11-04T19:57:28" hostname="Gustavo-Gonzalez-2.local" time="3.51">
   <properties/>
-  <testcase name="testPlay" classname="test.java.states.StoppedStateTest" time="1.055"/>
-  <testcase name="testPreviousSong" classname="test.java.states.StoppedStateTest" time="1.167"/>
-  <testcase name="testValues" classname="test.java.states.StoppedStateTest" time="0.04"/>
-  <testcase name="testNextSongCircular" classname="test.java.states.StoppedStateTest" time="1.136"/>
-  <testcase name="testNextSong" classname="test.java.states.StoppedStateTest" time="1.08"/>
+  <testcase name="testPlay" classname="test.java.states.StoppedStateTest" time="1.092"/>
+  <testcase name="testPreviousSong" classname="test.java.states.StoppedStateTest" time="0.25"/>
+  <testcase name="testValues" classname="test.java.states.StoppedStateTest" time="0.017"/>
+  <testcase name="testNextSongCircular" classname="test.java.states.StoppedStateTest" time="1.096"/>
+  <testcase name="testNextSong" classname="test.java.states.StoppedStateTest" time="1.053"/>
   <system-out><![CDATA[Create Singleton
 Delete Singleton
 Create Singleton
@@ -17,147 +17,145 @@ Delete Singleton
 Create Singleton
 Delete Singleton
 ]]></system-out>
-  <system-err><![CDATA[Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer open
+  <system-err><![CDATA[Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer open
 INFO: open(/Users/holawe/Final_Gestion_Calidad_SW/src/main/resources/default songs/Chariots of Fire Theme.mp3)
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line : Source format : MPEG1L3 44100.0 Hz, unknown bits per sample, stereo, unknown frame size, 38.28125 frames/second, 
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line : Target format: PCM_SIGNED 44100.0 Hz, 16 bit, stereo, 4 bytes/frame, little-endian
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
-INFO: Line : com.sun.media.sound.DirectAudioDevice$DirectSDL@4351247
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Line : com.sun.media.sound.DirectAudioDevice$DirectSDL@3a31e60c
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
 INFO: startPlayback called
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer initLine
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer initLine
 INFO: initLine()
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Open Line : BufferSize=88200
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Master Gain Control : [-80.0,6.0206] 0.625
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Pan Control : [-1.0,1.0] 0.0078125
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
 INFO: Creating new thread
-Nov 04, 2017 4:43:24 PM javazoom.jlgui.basicplayer.BasicPlayer run
+Nov 04, 2017 4:57:28 PM javazoom.jlgui.basicplayer.BasicPlayer run
 INFO: Thread Running
-Nov 04, 2017 4:43:25 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
 INFO: Stream closed
-Nov 04, 2017 4:43:25 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
 INFO: Stream closed
-Nov 04, 2017 4:43:25 PM javazoom.jlgui.basicplayer.BasicPlayer stopPlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer stopPlayback
 INFO: stopPlayback() completed
-Nov 04, 2017 4:43:25 PM javazoom.jlgui.basicplayer.BasicPlayer run
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer run
 INFO: Thread completed
-Nov 04, 2017 4:43:25 PM javazoom.jlgui.basicplayer.BasicPlayer open
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer open
 INFO: open(/Users/holawe/Final_Gestion_Calidad_SW/src/main/resources/default songs/Star Wars Theme.mp3)
-Nov 04, 2017 4:43:25 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line
-Nov 04, 2017 4:43:25 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line : Source format : MPEG1L3 44100.0 Hz, unknown bits per sample, stereo, unknown frame size, 38.28125 frames/second, 
-Nov 04, 2017 4:43:25 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line : Target format: PCM_SIGNED 44100.0 Hz, 16 bit, stereo, 4 bytes/frame, little-endian
-Nov 04, 2017 4:43:26 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
-INFO: Line : com.sun.media.sound.DirectAudioDevice$DirectSDL@7ec43be4
-Nov 04, 2017 4:43:26 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Line : com.sun.media.sound.DirectAudioDevice$DirectSDL@3e6ba2f5
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
 INFO: startPlayback called
-Nov 04, 2017 4:43:26 PM javazoom.jlgui.basicplayer.BasicPlayer initLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer initLine
 INFO: initLine()
-Nov 04, 2017 4:43:26 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Open Line : BufferSize=88200
-Nov 04, 2017 4:43:26 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Master Gain Control : [-80.0,6.0206] 0.625
-Nov 04, 2017 4:43:26 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Pan Control : [-1.0,1.0] 0.0078125
-Nov 04, 2017 4:43:26 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
 INFO: Creating new thread
-Nov 04, 2017 4:43:26 PM javazoom.jlgui.basicplayer.BasicPlayer run
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer run
 INFO: Thread Running
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
 INFO: Stream closed
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
-INFO: Stream closed
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer stopPlayback
-INFO: stopPlayback() completed
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer run
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer run
 INFO: Thread completed
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer open
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+INFO: Stream closed
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer stopPlayback
+INFO: stopPlayback() completed
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer open
 INFO: open(/Users/holawe/Final_Gestion_Calidad_SW/src/main/resources/default songs/Mission Impossible Theme.mp3)
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line : Source format : MPEG1L3 44100.0 Hz, unknown bits per sample, stereo, unknown frame size, 38.28125 frames/second, 
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line : Target format: PCM_SIGNED 44100.0 Hz, 16 bit, stereo, 4 bytes/frame, little-endian
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
-INFO: Line : com.sun.media.sound.DirectAudioDevice$DirectSDL@78ad20f7
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Line : com.sun.media.sound.DirectAudioDevice$DirectSDL@509d96a9
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
 INFO: startPlayback called
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer initLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer initLine
 INFO: initLine()
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Open Line : BufferSize=88200
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Master Gain Control : [-80.0,6.0206] 0.625
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Pan Control : [-1.0,1.0] 0.0078125
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
 INFO: Creating new thread
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer run
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer run
 INFO: Thread Running
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer pausePlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer pausePlayback
 INFO: pausePlayback() completed
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer resumePlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer resumePlayback
 INFO: resumePlayback() completed
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer pausePlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer pausePlayback
 INFO: pausePlayback() completed
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer resumePlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer resumePlayback
 INFO: resumePlayback() completed
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer pausePlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer pausePlayback
 INFO: pausePlayback() completed
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer resumePlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer resumePlayback
 INFO: resumePlayback() completed
-Nov 04, 2017 4:43:27 PM javazoom.jlgui.basicplayer.BasicPlayer pausePlayback
+Nov 04, 2017 4:57:29 PM javazoom.jlgui.basicplayer.BasicPlayer pausePlayback
 INFO: pausePlayback() completed
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
 INFO: Stream closed
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
 INFO: Stream closed
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer stopPlayback
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer stopPlayback
 INFO: stopPlayback() completed
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer run
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer run
 INFO: Thread completed
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer open
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer open
 INFO: open(/Users/holawe/Final_Gestion_Calidad_SW/src/main/resources/default songs/Mission Impossible Theme.mp3)
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line : Source format : MPEG1L3 44100.0 Hz, unknown bits per sample, stereo, unknown frame size, 38.28125 frames/second, 
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
 INFO: Create Line : Target format: PCM_SIGNED 44100.0 Hz, 16 bit, stereo, 4 bytes/frame, little-endian
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
-INFO: Line : com.sun.media.sound.DirectAudioDevice$DirectSDL@a9bceff
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer createLine
+INFO: Line : com.sun.media.sound.DirectAudioDevice$DirectSDL@a8b6220
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
 INFO: startPlayback called
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer initLine
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer initLine
 INFO: initLine()
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Open Line : BufferSize=88200
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Master Gain Control : [-80.0,6.0206] 0.625
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer openLine
 INFO: Pan Control : [-1.0,1.0] 0.0078125
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer startPlayback
 INFO: Creating new thread
-Nov 04, 2017 4:43:28 PM javazoom.jlgui.basicplayer.BasicPlayer run
+Nov 04, 2017 4:57:30 PM javazoom.jlgui.basicplayer.BasicPlayer run
 INFO: Thread Running
-Nov 04, 2017 4:43:29 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+Nov 04, 2017 4:57:31 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
 INFO: Stream closed
-Nov 04, 2017 4:43:29 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
+Nov 04, 2017 4:57:31 PM javazoom.jlgui.basicplayer.BasicPlayer closeStream
 INFO: Stream closed
-Nov 04, 2017 4:43:29 PM javazoom.jlgui.basicplayer.BasicPlayer stopPlayback
+Nov 04, 2017 4:57:31 PM javazoom.jlgui.basicplayer.BasicPlayer stopPlayback
 INFO: stopPlayback() completed
-Nov 04, 2017 4:43:29 PM javazoom.jlgui.basicplayer.BasicPlayer run
-INFO: Thread completed
 ]]></system-err>
 </testsuite>
