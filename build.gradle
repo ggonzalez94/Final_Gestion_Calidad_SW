@@ -17,7 +17,6 @@ dependencies {
 checkstyle {
     ignoreFailures = false
     toolVersion = '6.6'
-    maxWarnings = 10
 }
 
 tasks.withType(Checkstyle) {
@@ -54,5 +53,5 @@ tasks.withType(FindBugs) {
 jacocoTestReport.dependsOn test
 
 test{
-    ignoreFailures true
+    ignoreFailures false
 }

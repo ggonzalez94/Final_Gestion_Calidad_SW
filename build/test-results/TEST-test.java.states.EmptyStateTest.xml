@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.states.EmptyStateTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-19T18:26:49" hostname="Gustavo-Gonzalez-2.local" time="0.002">
+<testsuite name="test.java.states.EmptyStateTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-04T19:43:14" hostname="Gustavo-Gonzalez-2.local" time="0.003">
   <properties/>
-  <testcase name="testAddPlayList" classname="test.java.states.EmptyStateTest" time="0.002"/>
+  <testcase name="testAddPlayList" classname="test.java.states.EmptyStateTest" time="0.003"/>
   <system-out><![CDATA[Create Singleton
 Delete Singleton
 ]]></system-out>

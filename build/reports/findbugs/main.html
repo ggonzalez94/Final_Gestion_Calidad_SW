@@ -1,0 +1,837 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>FindBugs Report</title>
+<style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+		    color: red;
+		    font-weight: bold;
+		}
+		.priority-2 {
+		    color: orange;
+		    font-weight: bold;
+		}
+		.priority-3 {
+		    color: green;
+		    font-weight: bold;
+		}
+		.priority-4 {
+		    color: blue;
+		    font-weight: bold;
+		}
+		</style>
+<script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+</head>
+<body>
+<h1>
+<a href="http://findbugs.sourceforge.net">FindBugs</a> Report</h1>
+<h2>Project Information</h2>
+<p>Project: 
+		</p>
+<p>FindBugs version: 3.0.1</p>
+<p>Code analyzed:</p>
+<ul>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/controllers/BeatController.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/controllers/ControllerInterface.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/controllers/HeartController.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/controllers/MP3Controller.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/controllers/MP3Controller2.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/models/BeatModel.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/models/BeatModelInterface.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/models/HeartAdapter.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/models/HeartModel.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/models/HeartModelInterface.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/models/MP3Adapter.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/models/MP3Model.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/models/MP3ModelInterface.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/models/ProgressThread.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/states/EmptyState.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/states/MP3State.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/states/PausedState.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/states/PlayingState.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/states/StoppedState.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/testDrives/DJTestDrive.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/testDrives/HeartTestDrive.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/testDrives/MyMp3TestDrive1.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/testDrives/MyMP3TestDrive2.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/testDrives/MyMP3TestDrive3.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/testDrives/MyMP3TestDrive4.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/BeatBar.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/BeatObserver.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/BPMObserver.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/DJView$1.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/DJView$2.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/DJView$3.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/DJView.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/MP3View$1.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/MP3View.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/ProgressBar.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/ProgressObserver.class</li>
+<li>/Users/holawe/Final_Gestion_Calidad_SW/build/classes/main/main/java/views/TrackObserver.class</li>
+</ul>
+<p>
+<br/>
+<br/>
+</p>
+<h2>Metrics</h2>
+<p>1567 lines of code analyzed,
+	in 37 classes, 
+	in 5 packages.</p>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Metric</th>
+<th align="right">Total</th>
+<th align="right">Density*</th>
+</tr>
+<tr class="tablerow0">
+<td>High Priority Warnings</td>
+<td align="right">1</td>
+<td align="right">0.64</td>
+</tr>
+<tr class="tablerow1">
+<td>Medium Priority Warnings</td>
+<td align="right">14</td>
+<td align="right">8.93</td>
+</tr>
+<tr class="tablerow1">
+<td>Low Priority Warnings</td>
+<td align="right">14</td>
+<td align="right">8.93</td>
+</tr>
+<tr class="$totalClass">
+<td>
+<b>Total Warnings</b>
+</td>
+<td align="right">
+<b>29</b>
+</td>
+<td align="right">
+<b>18.51</b>
+</td>
+</tr>
+</table>
+<p>
+<i>(* Defects per Thousand lines of non-commenting source statements)</i>
+</p>
+<p>
+<br/>
+<br/>
+</p>
+<h2>Contents</h2>
+<ul>
+<li>
+<a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</li>
+<li>
+<a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
+</li>
+<li>
+<a href="#Warnings_MT_CORRECTNESS">Multithreaded correctness Warnings</a>
+</li>
+<li>
+<a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+</li>
+<li>
+<a href="#Warnings_STYLE">Dodgy code Warnings</a>
+</li>
+<li>
+<a href="#Details">Details</a>
+</li>
+</ul>
+<h1>Summary</h1>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Warning Type</th>
+<th align="right">Number</th>
+</tr>
+<tr class="tablerow0">
+<td>
+<a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</td>
+<td align="right">12</td>
+</tr>
+<tr class="tablerow1">
+<td>
+<a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
+</td>
+<td align="right">5</td>
+</tr>
+<tr class="tablerow0">
+<td>
+<a href="#Warnings_MT_CORRECTNESS">Multithreaded correctness Warnings</a>
+</td>
+<td align="right">4</td>
+</tr>
+<tr class="tablerow1">
+<td>
+<a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+</td>
+<td align="right">4</td>
+</tr>
+<tr class="tablerow0">
+<td>
+<a href="#Warnings_STYLE">Dodgy code Warnings</a>
+</td>
+<td align="right">4</td>
+</tr>
+<tr class="tablerow1">
+<td>
+<b>Total</b>
+</td>
+<td align="right">
+<b>29</b>
+</td>
+</tr>
+</table>
+<h1>Warnings</h1>
+<p>Click on a warning row to see full context information.</p>
+<h2>
+<a name="Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N65946');">
+<td>
+<span class="priority-3">DE</span>
+</td>
+<td>main.java.models.HeartModel.run() might ignore java.lang.Exception</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N65946" style="display: none;">
+<a href="#DE_MIGHT_IGNORE">Bug type DE_MIGHT_IGNORE (click for details)</a>
+<br/>In class main.java.models.HeartModel<br/>In method main.java.models.HeartModel.run()<br/>Exception class java.lang.Exception<br/>At HeartModel.java:[line 51]<br/>At HeartModel.java:[line 51]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66809');">
+<td>
+<span class="priority-3">DE</span>
+</td>
+<td>main.java.models.ProgressThread.run() might ignore java.lang.Exception</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66809" style="display: none;">
+<a href="#DE_MIGHT_IGNORE">Bug type DE_MIGHT_IGNORE (click for details)</a>
+<br/>In class main.java.models.ProgressThread<br/>In method main.java.models.ProgressThread.run()<br/>Exception class java.lang.Exception<br/>At ProgressThread.java:[line 29]<br/>At ProgressThread.java:[line 29]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N67101');">
+<td>
+<span class="priority-1">DE</span>
+</td>
+<td>main.java.views.BeatBar.run() might ignore java.lang.Exception</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N67101" style="display: none;">
+<a href="#DE_MIGHT_IGNORE">Bug type DE_MIGHT_IGNORE (click for details)</a>
+<br/>In class main.java.views.BeatBar<br/>In method main.java.views.BeatBar.run()<br/>Exception class java.lang.Exception<br/>At BeatBar.java:[line 24]<br/>At BeatBar.java:[line 24]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N67308');">
+<td>
+<span class="priority-2">Dm</span>
+</td>
+<td>main.java.views.DJView$3.actionPerformed(ActionEvent) invokes System.exit(...), which shuts down the entire virtual machine</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N67308" style="display: none;">
+<a href="#DM_EXIT">Bug type DM_EXIT (click for details)</a>
+<br/>In class main.java.views.DJView$3<br/>In method main.java.views.DJView$3.actionPerformed(ActionEvent)<br/>At DJView.java:[line 96]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N65812');">
+<td>
+<span class="priority-3">Nm</span>
+</td>
+<td>Confusing to have methods main.java.controllers.MP3Controller2.addPlaylist(String) and main.java.models.MP3Model.addPlayList(String)</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N65812" style="display: none;">
+<a href="#NM_CONFUSING">Bug type NM_CONFUSING (click for details)</a>
+<br/>In class main.java.controllers.MP3Controller2<br/>In method main.java.controllers.MP3Controller2.addPlaylist(String)<br/>In class main.java.models.MP3Model<br/>In method main.java.models.MP3Model.addPlayList(String)<br/>At MP3Controller2.java:[lines 69-70]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66213');">
+<td>
+<span class="priority-2">Nm</span>
+</td>
+<td>The method name main.java.models.MP3Model.IsPlaying() doesn't start with a lower case letter</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66213" style="display: none;">
+<a href="#NM_METHOD_NAMING_CONVENTION">Bug type NM_METHOD_NAMING_CONVENTION (click for details)</a>
+<br/>In class main.java.models.MP3Model<br/>In method main.java.models.MP3Model.IsPlaying()<br/>At MP3Model.java:[lines 223-227]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N67397');">
+<td>
+<span class="priority-2">Nm</span>
+</td>
+<td>The method name main.java.views.MP3View.MakePauseIcon() doesn't start with a lower case letter</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N67397" style="display: none;">
+<a href="#NM_METHOD_NAMING_CONVENTION">Bug type NM_METHOD_NAMING_CONVENTION (click for details)</a>
+<br/>In class main.java.views.MP3View<br/>In method main.java.views.MP3View.MakePauseIcon()<br/>At MP3View.java:[lines 355-356]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N67450');">
+<td>
+<span class="priority-2">Nm</span>
+</td>
+<td>The method name main.java.views.MP3View.MakePlayIcon() doesn't start with a lower case letter</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N67450" style="display: none;">
+<a href="#NM_METHOD_NAMING_CONVENTION">Bug type NM_METHOD_NAMING_CONVENTION (click for details)</a>
+<br/>In class main.java.views.MP3View<br/>In method main.java.views.MP3View.MakePlayIcon()<br/>At MP3View.java:[lines 351-352]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N67503');">
+<td>
+<span class="priority-2">Nm</span>
+</td>
+<td>The method name main.java.views.MP3View.MakeVolSliderMute() doesn't start with a lower case letter</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N67503" style="display: none;">
+<a href="#NM_METHOD_NAMING_CONVENTION">Bug type NM_METHOD_NAMING_CONVENTION (click for details)</a>
+<br/>In class main.java.views.MP3View<br/>In method main.java.views.MP3View.MakeVolSliderMute()<br/>At MP3View.java:[lines 359-360]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N67248');">
+<td>
+<span class="priority-3">Se</span>
+</td>
+<td>Class main.java.views.BeatBar defines non-transient non-serializable instance field thread</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N67248" style="display: none;">
+<a href="#SE_BAD_FIELD">Bug type SE_BAD_FIELD (click for details)</a>
+<br/>In class main.java.views.BeatBar<br/>Field main.java.views.BeatBar.thread<br/>Actual type Thread<br/>In BeatBar.java</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N67556');">
+<td>
+<span class="priority-3">Se</span>
+</td>
+<td>Class main.java.views.MP3View defines non-transient non-serializable instance field controller</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N67556" style="display: none;">
+<a href="#SE_BAD_FIELD">Bug type SE_BAD_FIELD (click for details)</a>
+<br/>In class main.java.views.MP3View<br/>Field main.java.views.MP3View.controller<br/>Actual type main.java.controllers.MP3Controller2<br/>In MP3View.java</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N67616');">
+<td>
+<span class="priority-3">Se</span>
+</td>
+<td>Class main.java.views.MP3View defines non-transient non-serializable instance field model</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N67616" style="display: none;">
+<a href="#SE_BAD_FIELD">Bug type SE_BAD_FIELD (click for details)</a>
+<br/>In class main.java.views.MP3View<br/>Field main.java.views.MP3View.model<br/>Actual type main.java.models.MP3ModelInterface<br/>In MP3View.java</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_CORRECTNESS">Correctness Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66266');">
+<td>
+<span class="priority-2">NP</span>
+</td>
+<td>Possible null pointer dereference of song in main.java.models.MP3Model.getAlbumArt() on exception path</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66266" style="display: none;">
+<a href="#NP_NULL_ON_SOME_PATH_EXCEPTION">Bug type NP_NULL_ON_SOME_PATH_EXCEPTION (click for details)</a>
+<br/>In class main.java.models.MP3Model<br/>In method main.java.models.MP3Model.getAlbumArt()<br/>Value loaded from song<br/>Dereferenced at MP3Model.java:[line 287]<br/>Null value at MP3Model.java:[line 281]<br/>Known null at MP3Model.java:[line 284]<br/>Known null at MP3Model.java:[line 285]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66364');">
+<td>
+<span class="priority-2">NP</span>
+</td>
+<td>Possible null pointer dereference of song in main.java.models.MP3Model.getCurrentSongDuration() on exception path</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66364" style="display: none;">
+<a href="#NP_NULL_ON_SOME_PATH_EXCEPTION">Bug type NP_NULL_ON_SOME_PATH_EXCEPTION (click for details)</a>
+<br/>In class main.java.models.MP3Model<br/>In method main.java.models.MP3Model.getCurrentSongDuration()<br/>Value loaded from song<br/>Dereferenced at MP3Model.java:[line 202]<br/>Null value at MP3Model.java:[line 196]<br/>Known null at MP3Model.java:[line 199]<br/>Known null at MP3Model.java:[line 200]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66462');">
+<td>
+<span class="priority-2">NP</span>
+</td>
+<td>Possible null pointer dereference of song in main.java.models.MP3Model.getCurrentSongDurationSec() on exception path</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66462" style="display: none;">
+<a href="#NP_NULL_ON_SOME_PATH_EXCEPTION">Bug type NP_NULL_ON_SOME_PATH_EXCEPTION (click for details)</a>
+<br/>In class main.java.models.MP3Model<br/>In method main.java.models.MP3Model.getCurrentSongDurationSec()<br/>Value loaded from song<br/>Dereferenced at MP3Model.java:[line 217]<br/>Null value at MP3Model.java:[line 211]<br/>Known null at MP3Model.java:[line 214]<br/>Known null at MP3Model.java:[line 215]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66560');">
+<td>
+<span class="priority-2">NP</span>
+</td>
+<td>Possible null pointer dereference of mp3file in main.java.models.MP3Model.getCurrentTrackName() on exception path</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66560" style="display: none;">
+<a href="#NP_NULL_ON_SOME_PATH_EXCEPTION">Bug type NP_NULL_ON_SOME_PATH_EXCEPTION (click for details)</a>
+<br/>In class main.java.models.MP3Model<br/>In method main.java.models.MP3Model.getCurrentTrackName()<br/>Value loaded from mp3file<br/>Dereferenced at MP3Model.java:[line 184]<br/>Null value at MP3Model.java:[line 178]<br/>Known null at MP3Model.java:[line 181]<br/>Known null at MP3Model.java:[line 182]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66658');">
+<td>
+<span class="priority-2">NP</span>
+</td>
+<td>Possible null pointer dereference of song in main.java.models.MP3Model.getSongInfo() on exception path</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66658" style="display: none;">
+<a href="#NP_NULL_ON_SOME_PATH_EXCEPTION">Bug type NP_NULL_ON_SOME_PATH_EXCEPTION (click for details)</a>
+<br/>In class main.java.models.MP3Model<br/>In method main.java.models.MP3Model.getSongInfo()<br/>Value loaded from song<br/>Dereferenced at MP3Model.java:[line 265]<br/>Null value at MP3Model.java:[line 259]<br/>Known null at MP3Model.java:[line 262]<br/>Known null at MP3Model.java:[line 263]</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_MT_CORRECTNESS">Multithreaded correctness Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66024');">
+<td>
+<span class="priority-3">LI</span>
+</td>
+<td>Incorrect lazy initialization of static field main.java.models.HeartModel.unique_model in main.java.models.HeartModel.getInstance()</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66024" style="display: none;">
+<a href="#LI_LAZY_INIT_STATIC">Bug type LI_LAZY_INIT_STATIC (click for details)</a>
+<br/>In class main.java.models.HeartModel<br/>In method main.java.models.HeartModel.getInstance()<br/>On field main.java.models.HeartModel.unique_model<br/>At HeartModel.java:[lines 25-26]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66144');">
+<td>
+<span class="priority-3">LI</span>
+</td>
+<td>Incorrect lazy initialization of static field main.java.models.MP3Model.uniqueMP3 in main.java.models.MP3Model.getInstance()</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66144" style="display: none;">
+<a href="#LI_LAZY_INIT_STATIC">Bug type LI_LAZY_INIT_STATIC (click for details)</a>
+<br/>In class main.java.models.MP3Model<br/>In method main.java.models.MP3Model.getInstance()<br/>On field main.java.models.MP3Model.uniqueMP3<br/>At MP3Model.java:[lines 63-64]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66887');">
+<td>
+<span class="priority-2">SC</span>
+</td>
+<td>new main.java.models.ProgressThread() invokes Thread.start()</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66887" style="display: none;">
+<a href="#SC_START_IN_CTOR">Bug type SC_START_IN_CTOR (click for details)</a>
+<br/>In class main.java.models.ProgressThread<br/>In method new main.java.models.ProgressThread()<br/>Called method Thread.start()<br/>At ProgressThread.java:[line 12]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N67179');">
+<td>
+<span class="priority-3">SC</span>
+</td>
+<td>new main.java.views.BeatBar() invokes Thread.start()</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N67179" style="display: none;">
+<a href="#SC_START_IN_CTOR">Bug type SC_START_IN_CTOR (click for details)</a>
+<br/>In class main.java.views.BeatBar<br/>In method new main.java.views.BeatBar()<br/>Called method Thread.start()<br/>At BeatBar.java:[line 13]</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_PERFORMANCE">Performance Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N67362');">
+<td>
+<span class="priority-3">SIC</span>
+</td>
+<td>The class main.java.views.DJView$3 could be refactored into a named _static_ inner class</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N67362" style="display: none;">
+<a href="#SIC_INNER_SHOULD_BE_STATIC_ANON">Bug type SIC_INNER_SHOULD_BE_STATIC_ANON (click for details)</a>
+<br/>In class main.java.views.DJView$3<br/>At DJView.java:[lines 94-97]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N65710');">
+<td>
+<span class="priority-2">UrF</span>
+</td>
+<td>Unread field: main.java.controllers.HeartController.model</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N65710" style="display: none;">
+<a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+<br/>In class main.java.controllers.HeartController<br/>Field main.java.controllers.HeartController.model<br/>At HeartController.java:[line 13]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N65761');">
+<td>
+<span class="priority-2">UrF</span>
+</td>
+<td>Unread field: main.java.controllers.HeartController.view</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N65761" style="display: none;">
+<a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+<br/>In class main.java.controllers.HeartController<br/>Field main.java.controllers.HeartController.view<br/>At HeartController.java:[line 14]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66093');">
+<td>
+<span class="priority-2">UrF</span>
+</td>
+<td>Unread field: main.java.models.HeartModel.bpm</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66093" style="display: none;">
+<a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+<br/>In class main.java.models.HeartModel<br/>Field main.java.models.HeartModel.bpm<br/>At HeartModel.java:[line 14]</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_STYLE">Dodgy code Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66756');">
+<td>
+<span class="priority-3">PZLA</span>
+</td>
+<td>Should main.java.models.MP3Model.getAlbumArt() return a zero length array rather than null?</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66756" style="display: none;">
+<a href="#PZLA_PREFER_ZERO_LENGTH_ARRAYS">Bug type PZLA_PREFER_ZERO_LENGTH_ARRAYS (click for details)</a>
+<br/>In class main.java.models.MP3Model<br/>In method main.java.models.MP3Model.getAlbumArt()<br/>At MP3Model.java:[line 291]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N65892');">
+<td>
+<span class="priority-3">REC</span>
+</td>
+<td>Exception is caught when Exception is not thrown in main.java.models.BeatModel.setUpMidi()</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N65892" style="display: none;">
+<a href="#REC_CATCH_EXCEPTION">Bug type REC_CATCH_EXCEPTION (click for details)</a>
+<br/>In class main.java.models.BeatModel<br/>In method main.java.models.BeatModel.setUpMidi()<br/>At BeatModel.java:[line 123]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66956');">
+<td>
+<span class="priority-3">UwF</span>
+</td>
+<td>ProgressThread.model not initialized in constructor and dereferenced in main.java.models.ProgressThread.reset()</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66956" style="display: none;">
+<a href="#UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR">Bug type UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR (click for details)</a>
+<br/>In class main.java.models.ProgressThread<br/>Field main.java.models.ProgressThread.model<br/>In method main.java.models.ProgressThread.reset()<br/>At ProgressThread.java:[line 52]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N67023');">
+<td>
+<span class="priority-3">UwF</span>
+</td>
+<td>ProgressThread.model not initialized in constructor and dereferenced in main.java.models.ProgressThread.run()</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N67023" style="display: none;">
+<a href="#UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR">Bug type UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR (click for details)</a>
+<br/>In class main.java.models.ProgressThread<br/>Field main.java.models.ProgressThread.model<br/>In method main.java.models.ProgressThread.run()<br/>At ProgressThread.java:[line 23]<br/>Another occurrence at ProgressThread.java:[line 26]</p>
+</td>
+</tr>
+</table>
+<h1>
+<a name="Details">Details</a>
+</h1>
+<h2>
+<a name="DE_MIGHT_IGNORE">DE_MIGHT_IGNORE: Method might ignore exception</a>
+</h2>
+
+  <p> This method might ignore an exception.&nbsp; In general, exceptions
+  should be handled or reported in some way, or they should be thrown
+  out of the method.</p>
+
+    
+<h2>
+<a name="DM_EXIT">DM_EXIT: Method invokes System.exit(...)</a>
+</h2>
+
+  <p> Invoking System.exit shuts down the entire Java virtual machine. This
+   should only been done when it is appropriate. Such calls make it
+   hard or impossible for your code to be invoked by other code.
+   Consider throwing a RuntimeException instead.</p>
+
+    
+<h2>
+<a name="LI_LAZY_INIT_STATIC">LI_LAZY_INIT_STATIC: Incorrect lazy initialization of static field</a>
+</h2>
+
+<p> This method contains an unsynchronized lazy initialization of a non-volatile static field.
+Because the compiler or processor may reorder instructions,
+threads are not guaranteed to see a completely initialized object,
+<em>if the method can be called by multiple threads</em>.
+You can make the field volatile to correct the problem.
+For more information, see the
+<a href="http://www.cs.umd.edu/~pugh/java/memoryModel/">Java Memory Model web site</a>.
+</p>
+
+    
+<h2>
+<a name="NM_CONFUSING">NM_CONFUSING: Confusing method names</a>
+</h2>
+
+  <p> The referenced methods have names that differ only by capitalization.</p>
+
+    
+<h2>
+<a name="NM_METHOD_NAMING_CONVENTION">NM_METHOD_NAMING_CONVENTION: Method names should start with a lower case letter</a>
+</h2>
+
+  <p>
+Methods should be verbs, in mixed case with the first letter lowercase, with the first letter of each internal word capitalized.
+</p>
+
+    
+<h2>
+<a name="NP_NULL_ON_SOME_PATH_EXCEPTION">NP_NULL_ON_SOME_PATH_EXCEPTION: Possible null pointer dereference in method on exception path</a>
+</h2>
+
+<p> A reference value which is null on some exception control path is
+dereferenced here.&nbsp; This may lead to a <code>NullPointerException</code>
+when the code is executed.&nbsp;
+Note that because FindBugs currently does not prune infeasible exception paths,
+this may be a false warning.</p>
+
+<p> Also note that FindBugs considers the default case of a switch statement to
+be an exception path, since the default case is often infeasible.</p>
+
+    
+<h2>
+<a name="PZLA_PREFER_ZERO_LENGTH_ARRAYS">PZLA_PREFER_ZERO_LENGTH_ARRAYS: Consider returning a zero length array rather than null</a>
+</h2>
+
+<p> It is often a better design to
+return a length zero array rather than a null reference to indicate that there
+are no results (i.e., an empty list of results).
+This way, no explicit check for null is needed by clients of the method.</p>
+
+<p>On the other hand, using null to indicate
+"there is no answer to this question" is probably appropriate.
+For example, <code>File.listFiles()</code> returns an empty list
+if given a directory containing no files, and returns null if the file
+is not a directory.</p>
+
+    
+<h2>
+<a name="REC_CATCH_EXCEPTION">REC_CATCH_EXCEPTION: Exception is caught when Exception is not thrown</a>
+</h2>
+  
+  <p>
+  This method uses a try-catch block that catches Exception objects, but Exception is not
+  thrown within the try block, and RuntimeException is not explicitly caught.  It is a common bug pattern to
+  say try { ... } catch (Exception e) { something } as a shorthand for catching a number of types of exception
+  each of whose catch blocks is identical, but this construct also accidentally catches RuntimeException as well,
+  masking potential bugs.
+  </p>
+  <p>A better approach is to either explicitly catch the specific exceptions that are thrown,
+  or to explicitly catch RuntimeException exception, rethrow it, and then catch all non-Runtime Exceptions, as shown below:</p>
+  <pre>
+  try {
+    ...
+  } catch (RuntimeException e) {
+    throw e;
+  } catch (Exception e) {
+    ... deal with all non-runtime exceptions ...
+  }</pre>
+  
+     
+<h2>
+<a name="SC_START_IN_CTOR">SC_START_IN_CTOR: Constructor invokes Thread.start()</a>
+</h2>
+
+  <p> The constructor starts a thread. This is likely to be wrong if
+   the class is ever extended/subclassed, since the thread will be started
+   before the subclass constructor is started.</p>
+
+    
+<h2>
+<a name="SE_BAD_FIELD">SE_BAD_FIELD: Non-transient non-serializable instance field in serializable class</a>
+</h2>
+
+<p> This Serializable class defines a non-primitive instance field which is neither transient,
+Serializable, or <code>java.lang.Object</code>, and does not appear to implement
+the <code>Externalizable</code> interface or the
+<code>readObject()</code> and <code>writeObject()</code> methods.&nbsp;
+Objects of this class will not be deserialized correctly if a non-Serializable
+object is stored in this field.</p>
+
+    
+<h2>
+<a name="SIC_INNER_SHOULD_BE_STATIC_ANON">SIC_INNER_SHOULD_BE_STATIC_ANON: Could be refactored into a named static inner class</a>
+</h2>
+
+  <p> This class is an inner class, but does not use its embedded reference
+  to the object which created it.&nbsp; This reference makes the instances
+  of the class larger, and may keep the reference to the creator object
+  alive longer than necessary.&nbsp; If possible, the class should be
+  made into a <em>static</em> inner class. Since anonymous inner
+classes cannot be marked as static, doing this will require refactoring
+the inner class so that it is a named inner class.</p>
+
+    
+<h2>
+<a name="URF_UNREAD_FIELD">URF_UNREAD_FIELD: Unread field</a>
+</h2>
+
+  <p> This field is never read.&nbsp; Consider removing it from the class.</p>
+
+    
+<h2>
+<a name="UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR">UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR: Field not initialized in constructor but dereferenced without null check</a>
+</h2>
+
+  <p> This field is never initialized within any constructor, and is therefore could be null after
+the object is constructed. Elsewhere, it is loaded and dereferenced without a null check.
+This could be a either an error or a questionable design, since
+it means a null pointer exception will be generated if that field is dereferenced
+before being initialized.
+</p>
+
+    </body>
+</html>
