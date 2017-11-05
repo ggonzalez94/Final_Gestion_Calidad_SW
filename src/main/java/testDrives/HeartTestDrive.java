@@ -14,6 +14,6 @@ public class HeartTestDrive {
 		view.createView();
         view.createControls();
 		ControllerInterface controller = new HeartController(heartModel,view);
-					view.setController(controller);
+					view.setController(controller)
 	}
 }
