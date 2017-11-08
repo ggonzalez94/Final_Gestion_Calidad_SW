@@ -28,7 +28,7 @@ tasks.withType(Checkstyle) {
 
 task pmd (type: Pmd) {
 
-ignoreFailures = false
+ignoreFailures = true
 description 'Run pmd'
 group 'verification'
 rulePriority = 2
