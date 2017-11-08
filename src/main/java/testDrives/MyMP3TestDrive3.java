@@ -12,7 +12,7 @@ import main.java.models.MP3Adapter;
 import main.java.models.MP3Model;
 import main.java.views.DJView;
 
-public class MyMP3TestDrive3 {
+	public class MyMP3TestDrive3 {
 
 	//Este Test Drive muestra los 3 modelos funcionando al mismo tiempo, en 3 vistas distintas,
 	//independientes entre si.
