@@ -37,11 +37,15 @@ tasks.withType(Pmd) {
     }
 }
 
-
+findbugs {
+    ignoreFailures = true
+    effort = "max"
+    reportLevel = "low"
+}
 
 tasks.withType(FindBugs) {
     reports {
-        xml.enabled = true
+        xml.enabled = false
         html.enabled = true
     }
 }
