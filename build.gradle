@@ -3,7 +3,7 @@ apply plugin: 'checkstyle'
 apply plugin: 'pmd'
 apply plugin: 'findbugs'
 apply plugin: "jacoco"
-apply plugin: 'cpd'
+apply plugin: "cpd"
 
 repositories {
     mavenCentral()
@@ -74,3 +74,19 @@ test {
         exceptionFormat "short"
     }
 }
+
+// optional - settings for every CPD task
+cpd {
+    language = 'cpp'
+    toolVersion = '5.2.3' // defaults to '5.4.2'; just available for v5.2.0 and higher (see explanation above)
+}
+
+// optional - default report is xml and default sources are 'main' and 'test'
+cpdCheck {
+    reports {
+        text.enabled = true
+        xml.enabled = false
+    }
+    source = sourceSets.main.allJava // only java, groovy and scala classes in 'main' sourceSets
+}
+
