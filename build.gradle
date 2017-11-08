@@ -49,6 +49,19 @@ reports {
     html.enabled = false
    }
 }
+// add CPD to check
+check << {
+  File outDir = new File('build/reports/pmd/')
+  outDir.mkdirs()
+  ant.taskdef(name: 'cpd', classname: 'net.sourceforge.pmd.cpd.CPDTask',
+    classpath: configurations.pmd.asPath)
+  ant.cpd(minimumTokenCount: '100', format: 'xml',
+    outputFile: new File(outDir , 'cpd.xml')) {
+    fileset(dir: "src/main/java") {
+      include(name: '**/*.java')
+    }
+  }
+}
 
 check.doLast {
     project.tasks.getByName("pmd").execute()
@@ -74,20 +87,5 @@ test {
         events "failed"
         exceptionFormat "short"
     }
-}
-
-// optional - settings for every CPD task
-cpd {
-    language = 'cpp'
-    toolVersion = '5.2.3' // defaults to '5.4.2'; just available for v5.2.0 and higher (see explanation above)
-}
-
-// optional - default report is xml and default sources are 'main' and 'test'
-cpdCheck {
-    reports {
-        text.enabled = true
-        xml.enabled = false
-    }
-    source = sourceSets.main.allJava // only java, groovy and scala classes in 'main' sourceSets
 }
 
