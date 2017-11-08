@@ -13,7 +13,7 @@ import main.java.models.MP3Model;
 import main.java.views.DJView;
 
 	public class MyMP3TestDrive3 {
-
+	char a;
 	//Este Test Drive muestra los 3 modelos funcionando al mismo tiempo, en 3 vistas distintas,
 	//independientes entre si.
 	public static void main(String[] args) {
