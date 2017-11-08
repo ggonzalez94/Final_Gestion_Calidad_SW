@@ -10,9 +10,7 @@
   <name>Final_Gestion_Calidad_SW</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+
 
 <reporting>
     <plugins>
