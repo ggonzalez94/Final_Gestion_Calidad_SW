@@ -6,7 +6,7 @@ import java.util.Random;
 import main.java.views.BPMObserver;
 import main.java.views.BeatObserver;
 
-public class HeartModel implements HeartModelInterface, Runnable {
+public  class HeartModel implements HeartModelInterface, Runnable {
 	private static HeartModel unique_model;
 	ArrayList<BeatObserver> beatObservers = new ArrayList<BeatObserver>();
 	ArrayList<BPMObserver> bpmObservers = new ArrayList<BPMObserver>();
@@ -67,14 +67,6 @@ public class HeartModel implements HeartModelInterface, Runnable {
 			beatObservers.remove(i);
 		}
 	}
-
-	public void removeObserver2(BeatObserver o) {
-		int i = beatObservers.indexOf(o);
-		if (i >= 0) {
-			beatObservers.remove(i);
-		}
-	}
-
 
 	public void notifyBeatObservers() {
 		for (int i = 0; i < beatObservers.size(); i++) {
