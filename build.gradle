@@ -3,6 +3,7 @@ apply plugin: 'checkstyle'
 apply plugin: 'pmd'
 apply plugin: 'findbugs'
 apply plugin: "jacoco"
+apply plugin: 'cpd'
 
 repositories {
     mavenCentral()
@@ -12,6 +13,7 @@ repositories {
 dependencies {
     testCompile 'junit:junit:4.10'
       compile fileTree(dir: 'lib', include: '*.jar')
+	classpath 'de.aaschmid:gradle-cpd-plugin:1.0'
 }
 
 checkstyle {
