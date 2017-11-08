@@ -13,7 +13,6 @@ repositories {
 dependencies {
     testCompile 'junit:junit:4.10'
       compile fileTree(dir: 'lib', include: '*.jar')
-	classpath 'de.aaschmid:gradle-cpd-plugin:1.0'
 }
 
 
