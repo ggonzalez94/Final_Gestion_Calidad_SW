@@ -36,7 +36,7 @@ public class MP3ModelTest {
 	@Test
 	public void testGetCurrentPlaylist(){
 		String[] playList = mp3Model.getCurrentPlaylist();
-		assertEquals(0, 1); 
+		assertEquals(0, playList.length); 
 	}
 	
 	@Test
