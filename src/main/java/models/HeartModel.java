@@ -68,6 +68,14 @@ public class HeartModel implements HeartModelInterface, Runnable {
 		}
 	}
 
+	public void removeObserver(BeatObserver o) {
+		int i = beatObservers.indexOf(o);
+		if (i >= 0) {
+			beatObservers.remove(i);
+		}
+	}
+
+
 	public void notifyBeatObservers() {
 		for (int i = 0; i < beatObservers.size(); i++) {
 			BeatObserver observer = (BeatObserver) beatObservers.get(i);
