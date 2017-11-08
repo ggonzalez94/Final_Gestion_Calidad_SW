@@ -16,7 +16,7 @@ dependencies {
 	classpath 'de.aaschmid:gradle-cpd-plugin:1.0'
 }
 
-apply plugin: 'cpd'
+
 
 checkstyle {
     ignoreFailures = false
