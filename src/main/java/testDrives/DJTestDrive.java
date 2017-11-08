@@ -14,7 +14,6 @@ public class DJTestDrive {
 		view.createView();
 		view.createControls();
 		ControllerInterface controller = new BeatController(model,view);
-		view.setController(controller)
-		;
+		view.setController(controller);
 	}
 }

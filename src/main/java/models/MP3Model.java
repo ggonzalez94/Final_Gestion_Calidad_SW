@@ -20,9 +20,9 @@ import main.java.views.TrackObserver;
 import main.java.states.*;
 
 public class MP3Model implements MP3ModelInterface {
-	
+	char errorFindBugs;
 	private static MP3Model uniqueMP3 = null;
-	
+
 	private BasicPlayer player;
 	private ArrayList<String> playlist;
 	private ArrayList<BPMObserver> bpmObservers;
