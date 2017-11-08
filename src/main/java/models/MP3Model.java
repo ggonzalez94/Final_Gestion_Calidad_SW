@@ -162,6 +162,7 @@ public class MP3Model implements MP3ModelInterface {
 			return false;
 		}
 		this.index = index;
+		this.index = index;
 		return true;
 	}
 
