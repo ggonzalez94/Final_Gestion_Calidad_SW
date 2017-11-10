@@ -32,7 +32,7 @@ tasks.withType(Checkstyle) {
 task pmd (type: Pmd) {
 
 ignoreFailures = true
-description 'Run pmd'
+/*description 'Run pmd'
 group 'verification'
 rulePriority = 2
 
@@ -43,7 +43,7 @@ ruleSets = ["java-android",
             "java-design",
             "java-unusedcode"]
 source = fileTree('src/main/java')
-
+*/
 reports {
     xml.enabled = true
     html.enabled = false
